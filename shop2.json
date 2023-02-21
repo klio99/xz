@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Acer Swift",
+        "price": "900 $",
+        "imgSrc" : "image/acer.png"
+    },
+    {
+        "name": "Asus Zenbook Duo",
+        "price": "1900 $",
+        "imgSrc" : "image/zenbook.png"
+    },
+    {
+        "name": "Dell Alienware",
+        "price": "2000 $",
+        "imgSrc" : "image/dell.png"
+    },
+    {
+        "name": "Hp Spectre",
+        "price": "2599 $",
+        "imgSrc" : "image/spectre.png"
+    },
+    {
+        "name": "Macbook M1",
+        "price": "2599 $",
+        "imgSrc" : "image/macbook.png"
+    },
+    {
+        "name": "Lenovo Yoga 6",
+        "price": "1099 $",
+        "imgSrc" : "image/yoga.png"},
+    {
+        "name": "Acer Swift",
+        "price": "900 $",
+        "imgSrc" : "image/acer.png"
+    },
+    {
+        "name": "Asus Zenbook Duo",
+        "price": "1900 $",
+        "imgSrc" : "image/zenbook.png"
+    }
+]

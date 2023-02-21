@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Ecommerce Website Design</title>
+
+	<!----Custom css link---->
+	<link rel="stylesheet" type="text/css" href="cart.css">
+
+	<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+
+</head>
+  <body>
+    	<!----header start--->
+	<header>
+		<a href="#" class="logo">Notebooks</a>
+		<div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a href="#shop">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#contact">Blog</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+		<div class="icons">
+			<a href="#"><i class='bx bx-search'></i></a>
+			<a href="#"><i class="fa-solid fa-scale-unbalanced-flip"></i></a>
+			<a href="#"><i class='bx bxs-shopping-bag' id="btnCart" ></i></a>
+      <span id = "cart-count-info">0</span>
+		</div>
+    <div id="modal-root">
+      <div class="modal">
+        <h3>Cart</h3>
+        <div id="addedCart"></div>
+        <h3>Total: <span id="cart-total-value"></span> $</h3>
+      </div>
+    </div>
+
+	 </header>
+	 <main>
+		<div class = "card-wrapper">
+      <div class = "card">
+        <!-- card left -->
+        <div class = "product-imgs">
+          <div class = "img-display">
+            <div class = "img-showcase">
+							<img src="images/Purple Minimalist Laptop Sale Instagram Post (2).png" id="imagebox" alt="">
+            </div>
+          </div>
+          <div class = "img-select">
+            <div class = "img-item">
+              <a href = "#" data-id = "1">
+                <img src="images/Purple Minimalist Laptop Sale Instagram Post (2).png" alt="" onclick="clickme(this)">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "2">
+                <img src="images/air3.png" alt="" onclick="clickme(this)">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "3">
+                <img src="images/air2.png" alt="" onclick="clickme(this)">
+              </a>
+            </div>
+            <div class = "img-item">
+              <a href = "#" data-id = "4">
+                <img src="images/air4.png" alt="" onclick="clickme(this)">
+              </a>
+            </div>
+          </div>
+					
+        </div>
+				
+        <!-- card right -->
+        <div class = "product-content">
+          <h2 class = "product-title">Apple MacBook Air 13 M2 </h2>
+          <div class = "product-rating">
+            <i class='bx bxs-star' ></i>
+            <i class='bx bxs-star' ></i>
+            <i class='bx bxs-star' ></i>
+            <i class='bx bxs-star' ></i>
+            <i class='bx bxs-star-half' ></i>
+            <span>4.7(21)</span>
+          </div>
+
+          <div class = "product-price">
+            <p class = "last-price">Old Price: <span>$2000.00</span></p>
+            <p class = "new-price">New Price: <span>$1700.00 (15%)</span></p>
+          </div>
+
+          <div class = "product-detail">
+            <h2>about this item: </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet veniam tempora fuga tenetur placeat sapiente architecto illum soluta consequuntur, aspernatur quidem at sequi ipsa!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, perferendis eius. Dignissimos, labore suscipit. Unde.</p>
+            <ul>
+              <li>Color: <span>Black</span></li>
+              <li>Available: <span>in stock</span></li>
+              <li>Category: <span>Ultrabook > Macbook </span></li>
+              <li>Shipping Area: <span>All over the world</span></li>
+              <li>Shipping Fee: <span>Free</span></li>
+            </ul>
+          </div>
+
+          <div class = "purchase-info">
+            <input type = "number" min = "1" value = "1">
+            <button type = "button" class = "btn">
+              Add To Cart ✔️ 
+            </button>
+            <button type = "button" class = "btn">Compare</button>
+          </div>
+          <div class="sticky-btn">
+						<p>Price: 700 $</p>
+						<i class="fa-solid fa-scale-unbalanced-flip"></i>
+						<button type="button" id="btn"> Add To Cart ✔️</button>
+					</div>
+        </div>
+      </div>
+    </div>
+ <div class="releted">
+	<h2>Releted Products</h2>
+	<p>Laptops There are many variations passages
+	</p>
+ </div>
+		<div class="shop-main-container grid">
+			
+			<div class="product-grid">
+			 <div class="container">
+				 <!--Products render json here -->
+ 
+			 </div>
+</div>		
+
+	 </main>
+
+         <!-- ==============  End Products  Section================ -->
+	</section>
+
+				 <!-- =============Footer Menu=================== -->
+
+				 <footer>
+          <div class="footer-container">
+            <div class="wrapper">
+              <div class="footer-widget">
+                <a href="#">
+                  <div class="logo">Pasakon Market</div>
+                </a>
+                <p class="desc">
+                  Lorem ipsum dolor sit 
+                  amet consectetur adipisicing elit. 
+                  Eosdeserunt magni recusandae ut! Natus?
+                </p>
+                <ul class="socials">
+                  <li><i class='bx bxl-facebook-circle'></i></li>
+                  <li><i class='bx bxl-instagram-alt' ></i></li>
+                  <li><i class='bx bxl-telegram' ></i></li>
+                </ul>
+              </div>
+              <div class="footer-widget">
+                <h6>Quick Link</h6>
+                <ul class="links">
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">Shop</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">News/Reviews</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div class="footer-widget">
+                <h6>Contact</h6>
+                <p class="desc">
+                  +99 (0) 101 0000 888 Patricia C. 
+                  Amedee 4401 Waldeck Street 
+                  Grapevine Nashville, Tx 76051
+                </p>
+              </div>
+              <div class="footer-widget">
+                <h6>Help &amp; Support</h6>
+                <ul class="links">
+                  <li><a href="#">support center</a></li>
+                  <li><a href="#">live chat</a></li>
+                  <li><a href="#">FAQ</a></li>
+                  <li><a href="#">terms &amp; conditions</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+   </footer>
+
+	 <script>
+		function clickme(smallImg) {
+
+				var fullImg = document.getElementById("imagebox");
+				fullImg.src = smallImg.src;
+
+		}
+
+</script>
+
+    <script src="cart.js" type="module"></script>
+  </body>
+</html>

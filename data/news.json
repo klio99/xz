@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "How to Build A Gaming Pc",
+    "excerpt": "Building a gaming PC from scratch is the only sure-fire way to ensure that your system is capable of satisfying all of your personal preferences.......",
+    "date": "FEB 20, 2023 7:03 AM PST",
+    "image": "game.png",
+    "author": "Sarvarbek"
+  },
+  {
+    "id": 2,
+    "title": "How to choose perfect gaming laptop",
+    "excerpt": "Working out how to buy a gaming laptop, especially if you've never bought one before or have been...",
+    "date": "FEB 20, 2023 7:03 AM PST",
+    "image": "laptop.jpg",
+    "author":"Sarvarbek "
+  },
+  {
+    "id": 2,
+    "title": "Cheepest OLED screen laptop",
+    "excerpt": "An OLED screen can elevate your viewing experience by turning a beautiful scene into a captivating one. Its ability to switch off individual pixels that....",
+    "date": "Ocutober 12, 2022",
+    "image": "oled.png",
+    "author": "Ecommercestore3"
+  },
+  {
+    "id": 3,
+    "title": "What is Metaverse?",
+    "excerpt": "They’re places where power can be inverted, disappointments escaped, and capitalist inequities left behind for something more excitingr",
+    "date": "Ocutober 12, 2022",
+    "image": "metaverse.png",
+    "author": "Ecommercestore3"
+  },
+  {
+    "id": 3,
+    "title": "12 Secrrets Study Effectly",
+    "excerpt": "Finding the best way to study is an ongoing process. It isn’t something that can be left to the night before the test.",
+    "date": "Ocutober 12, 2022",
+    "image": "red.png",
+    "author": "Ecommercestore3"
+  },
+  {
+    "id": 3,
+    "title": "How to choose Business Laptop",
+    "excerpt": "Business laptops are typically designed for portability and long periods of use compared to consumer laptop",
+    "date": "Ocutober 12, 2022",
+    "image": "business.jpg",
+    "author": "Ecommercestore3"
+  }
+]

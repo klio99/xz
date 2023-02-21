@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Acer Swift",
+    "price": "900 $",
+    "image": "acer.png"},
+  {
+    "id": 2,
+    "name": "Asus Zenbook Duo",
+    "price": "1900 $",
+    "image": "zenbook.png"},
+  {
+    "id": 3,
+    "name": "Dell Alienware",
+    "price": "2000 $",
+    "image": "dell.png"},
+  {
+    "id": 4,
+    "name": "Hp Spectre",
+    "price": "2599 $",
+    "image": "spectre.png"}
+
+
+]

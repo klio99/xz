@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Acer Swift",
+    "price": "900",
+    "image": "acer.png"
+  },
+  {
+    "id": 2,
+    "name": "Asus Zenbook Duo",
+    "price": "1900",
+    "image": "zenbook.png"
+  },
+  {
+    "id": 3,
+    "name": "Dell Alienware",
+    "price": "2000",
+    "image": "dell.png"
+  },
+  {
+    "id": 4,
+    "name": "Hp Spectre",
+    "price": "2599",
+    "image": "spectre.png"
+  },
+  {
+    "id": 5,
+    "name": "Macbook M1",
+    "price": "2599",
+    "image": "macbook.png"
+  },
+  {
+    "id": 6,
+    "name": "Lenovo Yoga 6",
+    "price": "1099",
+    "image": "yoga.png"
+  },
+  {
+    "id": 7,
+    "name": "Asus Zepyhrus",
+    "price": "2599",
+    "image": "asus-1.png"
+  },
+  {
+    "id": 8,
+    "name": "Samsung Galaxy Book",
+    "price": "2700",
+    "image": "galaxybook.png"
+  }
+]

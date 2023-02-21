@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add To Cart - Furniture</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="shop2.css">
+
+    <!-- =================Links=================== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <link>
+    
+  </head>
+  <body>
+
+    <!-- header  -->
+    <header>
+      <div class = "container">
+        <!-- navbar -->
+        <nav class = "navbar">
+          <a href = "index.html" class = "navbar-brand">Pasokon</a>
+          <button type = "button" class = "navbar-toggler">
+            <i class = "fas fa-bars"></i>
+          </button>
+          <div class = "navbar-collapse">
+            <ul class="navbar-2">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="shop2.html">Shop</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="contactus.html">Contact</a></li>
+            </ul>
+          </div>
+
+          <div class = "cart">
+            <button type = "button" id = "cart-btn">
+              <i class = "fas fa-shopping-cart"></i>
+              <span id = "cart-count-info">0</span>
+            </button>
+            
+            <div class = "cart-container">
+              <div class = "cart-list">
+                
+              </div>
+
+              <div class = "cart-total">
+                <h3>Total: $</h3>
+                <span id = "cart-total-value"></span>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- end of navbar -->
+
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- products section  -->
+    <section class = "products">
+      <div class = "container">
+        <h2>製品</h2>
+        <div class = "product-list">
+          <!-- single item -->
+          <!-- <div class = "product-item">
+            <div class = "product-img">
+              <img src = "images/bed.png" alt = "product image">
+              <button type = "button" class = "add-to-cart-btn">
+                <i class = "fas fa-shopping-cart"></i>Add To Cart
+              </button>
+            </div>
+
+            <div class = "product-content">
+              <h3 class = "product-name">Wooden Bed</h3>
+              <span class = "product-category">Bed</span>
+              <p class = "product-price">$120.00</p>
+            </div>
+          </div> -->
+          <!-- end of single item -->
+        </div>
+      </div>
+    </section>
+    <!-- end of products section -->
+
+
+<!-- =============Footer Menu=================== -->
+
+<footer>
+  <div class="footer-container">
+    <div class="wrapper">
+      <div class="footer-widget">
+        <a href="#">
+          <div class="logo">Pasakon Market</div>
+        </a>
+        <p class="desc">
+          Lorem ipsum dolor sit 
+          amet consectetur adipisicing elit. 
+          Eosdeserunt magni recusandae ut! Natus?
+        </p>
+        <ul class="socials">
+          <li><i class='bx bxl-facebook-circle'></i></li>
+          <li><i class='bx bxl-instagram-alt' ></i></li>
+          <li><i class='bx bxl-telegram' ></i></li>
+        </ul>
+      </div>
+      <div class="footer-widget">
+        <h6>Quick Link</h6>
+        <ul class="links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Shop</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">News/Reviews</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="footer-widget">
+        <h6>Contact</h6>
+        <p class="desc">
+          +99 (0) 101 0000 888 Patricia C. 
+          Amedee 4401 Waldeck Street 
+          Grapevine Nashville, Tx 76051
+        </p>
+      </div>
+      <div class="footer-widget">
+        <h6>Help &amp; Support</h6>
+        <ul class="links">
+          <li><a href="#">support center</a></li>
+          <li><a href="#">live chat</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">terms &amp; conditions</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+    <script src="shop2.js"></script>
+  </body>
+</html>
